@@ -1,0 +1,16 @@
+﻿<Window x:Class="creditdependency.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:creditdependency"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="800">
+    <StackPanel>
+        <Label Margin="10" Content="Доход" FontSize="15"/>
+        <TextBox x:Name="textbox" Margin="10"/>
+        <Label Margin="10" Content="Кредит" FontSize="15"/>
+        <Slider x:Name="slider1" Margin="10"/>
+        <Label Margin="10" Content="0" FontSize="20"/>
+    </StackPanel>
+</Window>
